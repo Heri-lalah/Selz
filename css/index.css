@@ -82,7 +82,7 @@ a {
   .banner_section .wrapper .intro {
     text-align: center;
     margin-top: 4em; }
-    .banner_section .wrapper .intro .intro_first_content {
+    .banner_section .wrapper .intro h1 {
       font-size: 4.5em;
       letter-spacing: -4px;
       text-shadow: -1px 1px 1px #292727;
@@ -178,6 +178,8 @@ a {
             font-size: 0.8em; }
           .banner_section .wrapper .slidder .mobile .content .section_time .website {
             font-size: 0.8em; }
+            .banner_section .wrapper .slidder .mobile .content .section_time .website i {
+              padding-right: 5px; }
         .banner_section .wrapper .slidder .mobile .content img {
           display: inline-block;
           max-width: 100%;

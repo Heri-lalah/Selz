@@ -54,8 +54,8 @@
                     </div>
                     <div class="content">
                         <div class="section_time">
-                            <span class="time">08:00 PM</span><br>
-                            <span class="website"><i class="fa fa-clock"></i>victor.design</span>
+                            <span class="time" id="time">08:00 PM</span><br>
+                            <span class="website"><i class="fa fa-clock"></i>herilalah-rakotonasolo.netlify.app</span>
                         </div>
                         <img src="images/digital_mobile.jpg" alt="digital_mobile">
                     </div>
@@ -125,5 +125,11 @@
 
         </nav>
     </footer> 
+
+    <script>
+        var time = document.getElementById('time');
+        var date = new Date();
+        time.innerHTML= date.getHours() + " : " + date.getMinutes();
+    </script>
 </body>
 </html>

@@ -41,11 +41,7 @@ a {
   background-color: #4cb953; }
   .sign_up:hover {
     transition: .5s ease-in-out;
-    box-shadow: 0 0 0 2px rgba(182, 197, 205, 0.3), 0 1px 0 rgba(0, 0, 0, 0.035), inset 0 -1px 2px 0 rgba(0, 0, 0, 0.05);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -ms-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out; }
+    box-shadow: 0 0 0 2px rgba(182, 197, 205, 0.3), 0 1px 0 rgba(0, 0, 0, 0.035), inset 0 -1px 2px 0 rgba(0, 0, 0, 0.05); }
 
 .banner_section {
   padding-top: 2em;
@@ -54,40 +50,38 @@ a {
   background-color: #5e37ca;
   background-image: linear-gradient(to top left, #c7358a, #5e37ca);
   color: white; }
-  .banner_section .wrapper header {
-    padding: .5em 0; }
-    .banner_section .wrapper header .logo {
-      float: left;
+  .banner_section .wrapper header .logo {
+    float: left;
+    margin: 0;
+    font-family: cursive;
+    font-size: 2.5em;
+    margin-top: -0.4em;
+    letter-spacing: -5px; }
+  .banner_section .wrapper header .navigation {
+    margin: 0 auto; }
+    .banner_section .wrapper header .navigation ul {
+      list-style: none;
       margin: 0;
-      font-family: cursive;
-      font-size: 2.5em;
-      margin-top: -0.4em;
-      letter-spacing: -5px; }
-    .banner_section .wrapper header .navigation {
-      margin: 0 auto; }
-      .banner_section .wrapper header .navigation ul {
+      padding: 0;
+      display: flex;
+      justify-content: center; }
+      .banner_section .wrapper header .navigation ul li {
         list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center; }
-        .banner_section .wrapper header .navigation ul li {
-          list-style: none;
+        font-weight: 700;
+        color: #fff; }
+        .banner_section .wrapper header .navigation ul li a {
+          color: #fff;
+          text-decoration: none;
+          padding: .4em 1em;
+          border-radius: 4em;
           font-weight: 700;
-          color: #fff; }
-          .banner_section .wrapper header .navigation ul li a {
-            color: #fff;
-            text-decoration: none;
-            padding: .4em 1em;
-            border-radius: 4em;
-            font-weight: 700;
-            transition: background-color 0.3s ease-in-out; }
-            .banner_section .wrapper header .navigation ul li a:hover {
-              cursor: pointer;
-              background-color: rgba(106, 49, 164, 0.8); }
+          transition: background-color 0.3s ease-in-out; }
+          .banner_section .wrapper header .navigation ul li a:hover {
+            cursor: pointer;
+            background-color: rgba(106, 49, 164, 0.8); }
   .banner_section .wrapper .intro {
     text-align: center;
-    margin-top: 6.5em; }
+    margin-top: 4em; }
     .banner_section .wrapper .intro .intro_first_content {
       font-size: 4.5em;
       letter-spacing: -4px;

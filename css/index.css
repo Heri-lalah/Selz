@@ -88,7 +88,7 @@ a {
   .banner_section .wrapper .intro {
     text-align: center;
     margin-top: 6.5em; }
-    .banner_section .wrapper .intro h1 {
+    .banner_section .wrapper .intro .intro_first_content {
       font-size: 4.5em;
       letter-spacing: -4px;
       text-shadow: -1px 1px 1px #292727;

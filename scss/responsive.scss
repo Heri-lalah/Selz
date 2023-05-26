@@ -1,0 +1,27 @@
+@media screen and (max-width : 765px){
+    .banner_section{
+        .logo{
+            //float: none;
+            //display: none;
+            position: absolute;
+        }
+        header{
+            //display: flex;
+            margin: 0;
+        }
+        .intro{
+            margin-top: 5em;
+            h1{
+                font-size: 100px;
+            }
+        }
+    }
+    .join_section{
+        text-align: center;
+        .join_section_items{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+}

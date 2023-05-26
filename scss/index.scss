@@ -162,12 +162,12 @@ a{
                 display: inline-block;
                 position: absolute;
                 right: 0;
-                top: -6%;
+                bottom: 0%;
                 z-index: 15;
                 padding: 0 10px;
                 background-color:$white;
                 border-radius: 3em 3em 0 0;
-                width: 30%;
+                //width: 30%;
                 box-shadow: -2px -2px 40px rgba(0, 0, 0, 0.2);
                 .tools_bar{
                     padding: 30px;
